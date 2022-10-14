@@ -16,7 +16,6 @@ class FeatureThumbnail extends StatelessWidget {
           fd.routeName,
           arguments: fd,
         );
-        // Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => fd.widgName));
       },
       child: Container(
         padding: const EdgeInsets.all(5),
@@ -94,7 +93,8 @@ class FeatureThumbnail extends StatelessWidget {
                                 maxLines: 7,
                                 softWrap: true,
                                 textAlign: TextAlign.justify,
-                              )
+                              ),
+
                             ],
                           ),
                         ),
@@ -103,6 +103,25 @@ class FeatureThumbnail extends StatelessWidget {
                   ],
                 ),
               ),
+              Positioned(
+                right: 0,
+                bottom: 0,
+                child: Container(
+                  height: 25,
+                  width: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.cyan,
+                    boxShadow: const [
+                      BoxShadow(
+                          blurRadius: 10.0,
+                          color: Colors.grey
+                      ),
+                    ],
+                  ),
+                  child: const Center(child: Text("Try it",style: TextStyle(color: Colors.white),)),
+                ),
+              )
             ],
           ),
         ),

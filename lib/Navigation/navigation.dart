@@ -7,6 +7,6 @@ class Navigate{
   static Map<String, Widget Function(BuildContext)> routes =   {
     '/' : (context) => const HomeScreen(),
     '/initial-screen' : (context) => const SplashScreen(),
-    '/wid1' : (context) => const Widget1(),
+    '/flip_card_widget' : (context) => const FlipCardWidget(),
   };
 }

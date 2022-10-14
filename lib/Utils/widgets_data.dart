@@ -1,10 +1,10 @@
 import '../Model/widget_details.dart';
 
-WidgetDetailsModel wid1 = WidgetDetailsModel(
-    "Widget Title",
-    "Widget Description",
-    "assets/images/wid1_demo.jpg",
-    "/wid1"
+WidgetDetailsModel flipCardWidget = WidgetDetailsModel(
+    "Flip Card",
+    "A component that provides a flip card animation. It could be used for hiding and showing details of a product.",
+    "assets/gifs/flip_card.gif",
+    "/flip_card_widget"
 );
 
-List<WidgetDetailsModel> widgetsList = [wid1];
+List<WidgetDetailsModel> widgetsList = [flipCardWidget];
