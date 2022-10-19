@@ -10,7 +10,7 @@ WidgetDetailsModel flipCardWidget = WidgetDetailsModel(
 WidgetDetailsModel confettiWidget = WidgetDetailsModel(
     "Confetti",
     "Blast colorful confetti all over the screen. Celebrate in app achievements with style. Control the velocity, angle, gravity and amount of confetti.",
-    "assets/gifs/flip_card.gif",
+    "assets/gifs/confetti.gif",
     "/confetti_widget"
 );
 
