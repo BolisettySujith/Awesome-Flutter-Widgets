@@ -8,5 +8,6 @@ class Navigate{
     '/' : (context) => const HomeScreen(),
     '/initial-screen' : (context) => const SplashScreen(),
     '/flip_card_widget' : (context) => const FlipCardWidget(),
+    '/confetti_widget' : (context) => const AwesomeConfettiWidget()
   };
 }

@@ -13,6 +13,19 @@ class FlipCardWidget extends StatefulWidget {
 }
 
 class _FlipCardWidgetState extends State<FlipCardWidget> {
+  final String _markdownData = """
+    FlipCard(
+      fill: Fill.fillBack,
+      direction: FlipDirection.HORIZONTAL, // default
+      front: Container(
+            child: Text('Front'),
+        ),
+        back: Container(
+            child: Text('Back'),
+        ),
+    );
+""";
+
   @override
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context)!.settings.arguments as WidgetDetailsModel;
@@ -117,15 +130,3 @@ class _FlipCardWidgetState extends State<FlipCardWidget> {
   }
 
 }
-const String _markdownData = """
-    FlipCard(
-      fill: Fill.fillBack,
-      direction: FlipDirection.HORIZONTAL, // default
-      front: Container(
-            child: Text('Front'),
-        ),
-        back: Container(
-            child: Text('Back'),
-        ),
-    );
-""";
