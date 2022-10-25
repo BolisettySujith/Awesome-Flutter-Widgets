@@ -3,9 +3,9 @@
 ## Here are some awesome Flutter widgets
 
 #### Table of the content
-1. [Flip Card Widget](lib\Components\flip_card_widget.dart)
-2. [Confetti Widget](lib\Components\confetti_widget.dart)
-
+1. Flip Card Widget
+2. Confetti Widget
+3. List Wheel Scroll View
 
 ### Widget's Preview
 
@@ -13,11 +13,12 @@
     <tr>
     <td align="center">FlipCard</td>
     <td align="center">Confetti</td>
-    <td align="center">Comming soon..</td>
+    <td align="center">List Wheel Scroll View</td>
     </tr>
     <tr>
     <td><img src="assets\gifs\flip_card.gif"></td>
     <td><img src="assets\gifs\confetti.gif"></td>
+    <td><img src="assets\gifs\list_wheel_scroll.gif"></td>
     </tr>
 </table>
 
