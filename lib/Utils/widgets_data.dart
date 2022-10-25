@@ -14,9 +14,16 @@ WidgetDetailsModel confettiWidget = WidgetDetailsModel(
     "/confetti_widget"
 );
 
+WidgetDetailsModel listWheelScroll = WidgetDetailsModel(
+    "List Wheel Scroll View",
+    "ListWheelScrollView is a flutter widget that is used to build ListView with a 3D effect. We can also use ListView to create a list of items but we can’t add a 3D effect to it plus it also comes with a constraint that all the children inside this widget must be of the same size along the strolling axis.",
+    "assets/gifs/list_wheel_scroll.gif",
+    "/listWheelScroll"
+);
+
 
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
-
+  listWheelScroll,
 ];
