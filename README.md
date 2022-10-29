@@ -6,6 +6,7 @@
 1. Flip Card Widget
 2. Confetti Widget
 3. List Wheel Scroll View
+4. Interactive Viewer
 
 ### Widget's Preview
 
@@ -19,6 +20,12 @@
     <td><img src="assets\gifs\flip_card.gif"></td>
     <td><img src="assets\gifs\confetti.gif"></td>
     <td><img src="assets\gifs\list_wheel_scroll.gif"></td>
+    </tr>
+    <tr>
+    <td align="center">FlipCard</td>
+    </tr>
+    <tr>
+    <td><img src="assets\gifs\interactive_viewer.gif"></td>
     </tr>
 </table>
 
