@@ -10,5 +10,6 @@ class Navigate{
     '/flip_card_widget' : (context) => const FlipCardWidget(),
     '/confetti_widget' : (context) => const AwesomeConfettiWidget(),
     '/listWheelScroll' : (context) => const ListWheelScroll(),
+    '/interactiveViewer' : (context) => const ZoomableWidget(),
   };
 }
