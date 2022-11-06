@@ -29,10 +29,17 @@ WidgetDetailsModel interactiveViewer = WidgetDetailsModel(
     "/interactiveViewer"
 );
 
+WidgetDetailsModel reorderableList = WidgetDetailsModel(
+    "Reorderable List View",
+    "The reorderable List is one whose items are draggable, and the user can rearrange/modify the object.",
+    "assets/gifs/reorderlistviewwidget.gif",
+    "/reorderableList"
+);
 
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
   listWheelScroll,
   interactiveViewer,
+  reorderableList,
 ];

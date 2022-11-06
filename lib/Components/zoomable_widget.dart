@@ -21,7 +21,7 @@ class _ZoomableWidgetState extends State<ZoomableWidget> {
         ),
       ),
     ),
-""";
+  """;
 
   @override
   Widget build(BuildContext context) {

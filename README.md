@@ -7,6 +7,7 @@
 2. Confetti Widget
 3. List Wheel Scroll View
 4. Interactive Viewer
+5. Reorderable List View
 
 ### Widget's Preview
 
@@ -22,10 +23,12 @@
     <td><img src="assets\gifs\list_wheel_scroll.gif"></td>
     </tr>
     <tr>
-    <td align="center">FlipCard</td>
+    <td align="center">Interactive Viewer</td>
+    <td align="center">Re-orderable List View</td>
     </tr>
     <tr>
     <td><img src="assets\gifs\interactive_viewer.gif"></td>
+    <td><img src="assets\gifs\reorderlistviewwidget.gif"></td>
     </tr>
 </table>
 

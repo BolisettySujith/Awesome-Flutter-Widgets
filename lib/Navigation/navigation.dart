@@ -11,5 +11,6 @@ class Navigate{
     '/confetti_widget' : (context) => const AwesomeConfettiWidget(),
     '/listWheelScroll' : (context) => const ListWheelScroll(),
     '/interactiveViewer' : (context) => const ZoomableWidget(),
+    '/reorderableList' : (context) => const ReorderableListViewWidget(),
   };
 }
