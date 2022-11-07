@@ -4,11 +4,11 @@
 
 #### Table of the content
 1. Flip Card Widget
-2. Confetti Widget
-3. List Wheel Scroll View
-4. Interactive Viewer
-5. Reorderable List View
-
+2. Confetti Widget 
+3. List Wheel Scroll View Widget
+4. Interactive Viewer Widget
+5. Reorderable List View Widget
+6. Cupertino Context Menu Widget
 ### Widget's Preview
 
 <table>
@@ -25,10 +25,12 @@
     <tr>
     <td align="center">Interactive Viewer</td>
     <td align="center">Re-orderable List View</td>
+    <td align="center">Cupertino Context Menu</td>
     </tr>
     <tr>
     <td><img src="assets\gifs\interactive_viewer.gif"></td>
     <td><img src="assets\gifs\reorderlistviewwidget.gif"></td>
+    <td><img src="assets\gifs\cuper_ctx_menu_widget.gif"></td>
     </tr>
 </table>
 

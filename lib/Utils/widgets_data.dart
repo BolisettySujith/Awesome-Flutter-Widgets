@@ -36,10 +36,18 @@ WidgetDetailsModel reorderableList = WidgetDetailsModel(
     "/reorderableList"
 );
 
+WidgetDetailsModel cuperCtxMenu = WidgetDetailsModel(
+    "Cupertino Context Menu",
+    "CupertinoContextMenu widget shows a display that on lengthy press will show the context menu with activities for that child. It proves to be useful when we need to show more choices for a child in a little space.",
+    "assets/gifs/cuper_ctx_menu_widget.gif",
+    "/cuperCtxMenu"
+);
+
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
   listWheelScroll,
   interactiveViewer,
   reorderableList,
+  cuperCtxMenu
 ];
