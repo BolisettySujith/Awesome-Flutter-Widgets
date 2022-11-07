@@ -12,5 +12,6 @@ class Navigate{
     '/listWheelScroll' : (context) => const ListWheelScroll(),
     '/interactiveViewer' : (context) => const ZoomableWidget(),
     '/reorderableList' : (context) => const ReorderableListViewWidget(),
+    '/cuperCtxMenu': (context) => const CupertinoCxtMenuWidget(),
   };
 }
