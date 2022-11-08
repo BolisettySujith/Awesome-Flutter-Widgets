@@ -9,6 +9,7 @@
 4. Interactive Viewer Widget
 5. Reorderable List View Widget
 6. Cupertino Context Menu Widget
+7. Tabular View Widget
 ### Widget's Preview
 
 <table>
@@ -31,6 +32,12 @@
     <td><img src="assets\gifs\interactive_viewer.gif"></td>
     <td><img src="assets\gifs\reorderlistviewwidget.gif"></td>
     <td><img src="assets\gifs\cuper_ctx_menu_widget.gif"></td>
+    </tr>
+    <tr>
+    <td align="center">Tabular View</td>
+    </tr>
+    <tr>
+    <td><img src="assets\gifs\tabular_view.gif"></td>
     </tr>
 </table>
 
