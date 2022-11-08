@@ -10,18 +10,6 @@ class ZoomableWidget extends StatefulWidget {
 }
 
 class _ZoomableWidgetState extends State<ZoomableWidget> {
-  final String _markdownData = """
-    InteractiveViewer(
-      boundaryMargin: const EdgeInsets.all(double.infinity),
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            "Widget"
-          ),
-        ),
-      ),
-    ),
-  """;
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +38,7 @@ class _ZoomableWidgetState extends State<ZoomableWidget> {
             margin: const EdgeInsets.all(10),
             child: Align(
               alignment: Alignment.bottomRight,
-              child: CodeViewer(markdownData: _markdownData,title: args.title,),
+              child: CodeViewer(markdownData: args.codeSnippet,title: args.title,),
             ),
           ),
         ],

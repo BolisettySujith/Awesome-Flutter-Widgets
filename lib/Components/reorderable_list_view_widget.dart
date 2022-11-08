@@ -12,30 +12,6 @@ class ReorderableListViewWidget extends StatefulWidget {
 
 class _ReorderableListViewWidgetState extends State<ReorderableListViewWidget> {
   final List<int> items = List.generate(30, (int index) => index);
-  final String _markdownData = """
-    final List<int> items = List.generate(30, (int index) => index);
-    ------
-    ReorderableListView(
-      children: List.generate(
-          items.length,
-          (index) => ListTile(
-            key: Key("index"),
-            tileColor: items[index].isOdd?Colors.white:Colors.grey.shade200,
-            title: Text("Task {items[index]}"),
-            trailing: const Icon(Icons.drag_indicator),
-          )
-      ),
-      onReorder: (int oldIndex, int newIndex) {
-        setState(() {
-          if(oldIndex < newIndex){
-            newIndex -=1;
-          }
-          final int item = items.removeAt(oldIndex);
-          items.insert(newIndex, item);
-        });
-      },
-    ),
-  """;
 
   @override
   Widget build(BuildContext context) {
@@ -73,7 +49,7 @@ class _ReorderableListViewWidgetState extends State<ReorderableListViewWidget> {
             margin: const EdgeInsets.all(10),
             child: Align(
               alignment: Alignment.bottomRight,
-              child: CodeViewer(markdownData: _markdownData,title: args.title,),
+              child: CodeViewer(markdownData: args.codeSnippet,title: args.title,),
             ),
           ),
         ],

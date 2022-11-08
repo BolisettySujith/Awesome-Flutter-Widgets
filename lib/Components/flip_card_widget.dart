@@ -13,18 +13,6 @@ class FlipCardWidget extends StatefulWidget {
 }
 
 class _FlipCardWidgetState extends State<FlipCardWidget> {
-  final String _markdownData = """
-    FlipCard(
-      fill: Fill.fillBack,
-      direction: FlipDirection.HORIZONTAL, // default
-      front: Container(
-            child: Text('Front'),
-        ),
-        back: Container(
-            child: Text('Back'),
-        ),
-    );
-""";
 
   @override
   Widget build(BuildContext context) {
@@ -90,13 +78,13 @@ class _FlipCardWidgetState extends State<FlipCardWidget> {
                   child: Markdown(
                     controller: controller,
                     selectable: true,
-                    data: _markdownData,
+                    data: args.codeSnippet,
 
                   ),
                 ),
                 GestureDetector(
                   onTap: (){
-                    FlutterClipboard.copy(_markdownData).then(( value ) => {
+                    FlutterClipboard.copy(args.codeSnippet).then(( value ) => {
                       ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(
                             content: Text("Copied"),

@@ -29,21 +29,6 @@ class _AwesomeConfettiWidgetState extends State<AwesomeConfettiWidget> {
     super.dispose();
   }
 
-  final String _markdownData = """
-  
-    ConfettiWidget(
-      confettiController: _centerController,
-      blastDirection: pi / 2,
-      maxBlastForce: 5,
-      minBlastForce: 1,
-      emissionFrequency: 0.03,
-      numberOfParticles: 10,
-      shouldLoop:true,
-      gravity: 0,
-    ),
-  """;
-
-
   @override
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context)!.settings.arguments as WidgetDetailsModel;
@@ -91,7 +76,7 @@ class _AwesomeConfettiWidgetState extends State<AwesomeConfettiWidget> {
               margin: const EdgeInsets.all(10),
               child: Align(
                 alignment: Alignment.bottomRight,
-                child: CodeViewer(markdownData: _markdownData,title: args.title,),
+                child: CodeViewer(markdownData: args.codeSnippet,title: args.title,),
               ),
             ),
 

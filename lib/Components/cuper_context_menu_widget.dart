@@ -12,25 +12,6 @@ class CupertinoCxtMenuWidget extends StatefulWidget {
 }
 
 class _CupertinoCxtMenuWidgetState extends State<CupertinoCxtMenuWidget> {
-  final String _markdownData = """
-    CupertinoContextMenu(
-      actions: [
-        CupertinoContextMenuAction(
-            child: const Text("Action one"),
-          onPressed: (){
-              Navigator.pop(context);
-          },
-        ),
-        CupertinoContextMenuAction(
-          child: const Text("Action two"),
-          onPressed: (){
-            Navigator.pop(context);
-          },
-        ),
-      ],
-      child: Image.network("https://w7.pngwing.com/pngs/522/1004/png-transparent-computer-icons-others-angle-rectangle-triangle-thumbnail.png"),
-    ),
-  """;
 
   @override
   Widget build(BuildContext context) {
@@ -77,7 +58,7 @@ class _CupertinoCxtMenuWidgetState extends State<CupertinoCxtMenuWidget> {
             margin: const EdgeInsets.all(10),
             child: Align(
               alignment: Alignment.bottomRight,
-              child: CodeViewer(markdownData: _markdownData,title: args.title,),
+              child: CodeViewer(markdownData: args.codeSnippet,title: args.title,),
             ),
           ),
         ],
