@@ -43,11 +43,19 @@ WidgetDetailsModel cuperCtxMenu = WidgetDetailsModel(
     "/cuperCtxMenu"
 );
 
+WidgetDetailsModel tabularView = WidgetDetailsModel(
+    "Table View",
+    "A table allows the user to arrange the data in rows and columns. It is used to store and display our data in a structured format, which helps us to compare the pairs of related values easily.",
+    "assets/gifs/tabular_view.gif",
+    "/tabularView"
+);
+
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
   listWheelScroll,
   interactiveViewer,
   reorderableList,
-  cuperCtxMenu
+  cuperCtxMenu,
+  tabularView
 ];

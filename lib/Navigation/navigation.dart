@@ -13,5 +13,6 @@ class Navigate{
     '/interactiveViewer' : (context) => const ZoomableWidget(),
     '/reorderableList' : (context) => const ReorderableListViewWidget(),
     '/cuperCtxMenu': (context) => const CupertinoCxtMenuWidget(),
+    '/tabularView': (context) => const TabularView(),
   };
 }
