@@ -3,6 +3,7 @@ class WidgetDetailsModel{
   String description;
   String img;
   String routeName;
+  String codeSnippet;
 
-  WidgetDetailsModel(this.title, this.description, this.img, this.routeName);
+  WidgetDetailsModel(this.title, this.description, this.img, this.routeName, this.codeSnippet);
 }

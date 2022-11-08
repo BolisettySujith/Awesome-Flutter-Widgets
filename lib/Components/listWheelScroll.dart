@@ -12,28 +12,6 @@ class ListWheelScroll extends StatefulWidget {
 class _ListWheelScrollState extends State<ListWheelScroll> {
   FixedExtentScrollController fixedExtentScrollController = FixedExtentScrollController();
   final controller = ScrollController();
-  final String _markdownData = """
-  ListWheelScrollView({
-  
-      Key key,
-      ScrollController controller, 
-      ScrollPhysics physics, 
-      double diameterRatio, 
-      double perspective, 
-      double offAxisFraction, 
-      bool useMagnifier, 
-      double magnification, 
-      double overAndUnderCenterOpacity, 
-      double itemExtent, 
-      double squeeze, 
-      void Function(int) onSelectedItemChanged, 
-      bool clipToSize, 
-      bool renderChildrenOutsideViewport, 
-      List<Widget> children
-      
-  })  
-  """;
-
 
   @override
   Widget build(BuildContext context) {
@@ -77,7 +55,7 @@ class _ListWheelScrollState extends State<ListWheelScroll> {
             margin: const EdgeInsets.all(10),
             child: Align(
               alignment: Alignment.bottomRight,
-              child: CodeViewer(markdownData: _markdownData,title: args.title,),
+              child: CodeViewer(markdownData: args.codeSnippet,title: args.title,),
             ),
           ),
         ],
