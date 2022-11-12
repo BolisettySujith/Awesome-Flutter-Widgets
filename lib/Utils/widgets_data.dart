@@ -203,6 +203,14 @@ WidgetDetailsModel tabularView = WidgetDetailsModel(
     """
 );
 
+WidgetDetailsModel bottomsheetpopup = WidgetDetailsModel(
+    "Amazon 'Buy Now' UI",
+    "A simple Amazons's 'Swipe to place your order' ui",
+    "assets/gifs/amazon_place_your_order_ui.gif",
+    "/amazonplaceorderui",
+    ""
+);
+
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
@@ -210,5 +218,6 @@ List<WidgetDetailsModel> widgetsList = [
   interactiveViewer,
   reorderableList,
   cuperCtxMenu,
-  tabularView
+  tabularView,
+  bottomsheetpopup,
 ];
