@@ -10,6 +10,7 @@
 5. Reorderable List View Widget
 6. Cupertino Context Menu Widget
 7. Tabular View Widget
+8. Amazon 'Swipe to place your order' UI
 ### Widget's Preview
 
 <table>
@@ -35,9 +36,11 @@
     </tr>
     <tr>
     <td align="center">Tabular View</td>
+    <td align="center">Swipe to place order</td>
     </tr>
     <tr>
     <td><img src="assets\gifs\tabular_view.gif"></td>
+    <td><img src="assets\gifs\amazon_place_your_order_ui.gif"></td>
     </tr>
 </table>
 

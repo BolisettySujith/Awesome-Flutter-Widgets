@@ -14,5 +14,6 @@ class Navigate{
     '/reorderableList' : (context) => const ReorderableListViewWidget(),
     '/cuperCtxMenu': (context) => const CupertinoCxtMenuWidget(),
     '/tabularView': (context) => const TabularView(),
+    '/amazonplaceorderui': (context) => const AmazonPlaceOrderUI(),
   };
 }
