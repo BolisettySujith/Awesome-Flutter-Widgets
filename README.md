@@ -2,7 +2,7 @@
 
 ## Here are some awesome Flutter widgets
 
-#### Table of the content
+#### Table of the content 📑
 1. Flip Card Widget
 2. Confetti Widget 
 3. List Wheel Scroll View Widget
@@ -11,7 +11,9 @@
 6. Cupertino Context Menu Widget
 7. Tabular View Widget
 8. Amazon 'Swipe to place your order' UI
-### Widget's Preview
+9. Stepper Widget
+
+### Awesome Widget's Preview 😎
 
 <table>
     <tr>
@@ -37,16 +39,18 @@
     <tr>
     <td align="center">Tabular View</td>
     <td align="center">Swipe to place order</td>
+    <td align="center">Stepper</td>
     </tr>
     <tr>
     <td><img src="assets\gifs\tabular_view.gif"></td>
     <td><img src="assets\gifs\amazon_place_your_order_ui.gif"></td>
+    <td><img src="assets\gifs\stepper_widg.gif"></td>
     </tr>
 </table>
 
 
 
-## Looking to contribute ?
+## Looking to contribute 📝 ?
 Please read [CONTRIBUTING.md](/CONTRIBUTING.md) before writing a pull request.
 
 

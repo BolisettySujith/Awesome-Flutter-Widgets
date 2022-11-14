@@ -15,5 +15,6 @@ class Navigate{
     '/cuperCtxMenu': (context) => const CupertinoCxtMenuWidget(),
     '/tabularView': (context) => const TabularView(),
     '/amazonplaceorderui': (context) => const AmazonPlaceOrderUI(),
+    '/stepperwidget' : (context) => const StepperWidget(),
   };
 }

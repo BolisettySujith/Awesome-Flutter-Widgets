@@ -211,6 +211,77 @@ WidgetDetailsModel bottomsheetpopup = WidgetDetailsModel(
     ""
 );
 
+WidgetDetailsModel stepperWidget = WidgetDetailsModel(
+    "Stepper",
+    "Stepper widget is popularly used to display any progress through a sequence of steps.",
+    "assets/gifs/stepper_widg.gif",
+    "/stepperwidget",
+    """
+    Stepper(
+      steps: [
+        Step(
+          isActive: _currentStep ==0,
+            title: const Text("Step 1"),
+            content: const Text(""
+                "Information for Step 1",
+              style: TextStyle(
+                color: Colors.cyanAccent
+              ),
+            )
+        ),
+        Step(
+            isActive: _currentStep == 1,
+            title: const Text("Step 2"),
+            content: const Text(""
+                "Information for Step 2",
+              style: TextStyle(
+                  color: Colors.cyanAccent
+              ),
+            )
+        ),
+        Step(
+            isActive: _currentStep == 2,
+            title: const Text("Step 3"),
+            content: const Text(""
+                "Information for Step 3",
+              style: TextStyle(
+                  color: Colors.cyanAccent
+              ),
+            )
+        )
+      ],
+      onStepTapped: (int newIndex){
+        setState(() {
+          _currentStep = newIndex;
+        });
+      },
+      currentStep: _currentStep,
+      onStepContinue: (){
+        if(_currentStep ==2){
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const CompleteSteps()),
+          );
+        }
+        if(_currentStep !=2){
+          setState(() {
+            _currentStep +=1;
+          });
+        }
+
+      },
+      onStepCancel: (){
+        if(_currentStep !=0){
+          setState(() {
+            _currentStep -=1;
+          });
+        }
+      },
+      type: _currentType,
+    )
+    """
+);
+
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
@@ -220,4 +291,5 @@ List<WidgetDetailsModel> widgetsList = [
   cuperCtxMenu,
   tabularView,
   bottomsheetpopup,
+  stepperWidget
 ];
