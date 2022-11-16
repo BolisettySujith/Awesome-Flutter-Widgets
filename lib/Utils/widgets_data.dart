@@ -291,6 +291,25 @@ WidgetDetailsModel colorFilteredEffects = WidgetDetailsModel(
     """
 );
 
+WidgetDetailsModel imageViewer3d = WidgetDetailsModel(
+    "Image Viewer 3D",
+    "Customize the Image color",
+    "assets/gifs/image_viewer_3d.gif",
+    "/image_viewer_3d",
+    """
+    InteractiveViewer(
+      child: ModelViewer(
+        backgroundColor: const Color.fromARGB(0xFF, 0xEE, 0xEE, 0xEE),
+        src: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb',
+        alt: "Test",
+        ar: false,
+        autoRotate: false,
+        cameraControls: true,
+      ),
+    )
+    """
+);
+
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
@@ -301,5 +320,6 @@ List<WidgetDetailsModel> widgetsList = [
   tabularView,
   bottomsheetpopup,
   stepperWidget,
-  colorFilteredEffects
+  colorFilteredEffects,
+  imageViewer3d
 ];

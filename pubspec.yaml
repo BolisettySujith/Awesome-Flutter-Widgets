@@ -42,6 +42,7 @@ dependencies:
   clipboard: ^0.1.3
   confetti: ^0.7.0
   slide_to_act: ^2.0.1
+  model_viewer_plus: ^1.3.3
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +73,7 @@ flutter:
   assets:
     - assets/images/
     - assets/gifs/
+    - assets/3d_models/Astronaut.glb
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
