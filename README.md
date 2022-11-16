@@ -12,18 +12,19 @@
 7. Tabular View Widget
 8. Amazon 'Swipe to place your order' UI
 9. Stepper Widget
+10. Image Color Filter
 
 ### Awesome Widget's Preview 😎
 
 <table>
     <tr>
+    <td align="center">Image Color Filter</td>
     <td align="center">FlipCard</td>
-    <td align="center">Confetti</td>
     <td align="center">List Wheel Scroll View</td>
     </tr>
     <tr>
+    <td><img src="assets\gifs\image_color_filter.gif"></td>    
     <td><img src="assets\gifs\flip_card.gif"></td>
-    <td><img src="assets\gifs\confetti.gif"></td>
     <td><img src="assets\gifs\list_wheel_scroll.gif"></td>
     </tr>
     <tr>
@@ -45,6 +46,14 @@
     <td><img src="assets\gifs\tabular_view.gif"></td>
     <td><img src="assets\gifs\amazon_place_your_order_ui.gif"></td>
     <td><img src="assets\gifs\stepper_widg.gif"></td>
+    </tr>
+    <tr>
+    <td align="center">Confetti</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    </tr>
+    <tr>
+    <td><img src="assets\gifs\confetti.gif"></td>
     </tr>
 </table>
 
