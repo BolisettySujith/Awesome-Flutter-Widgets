@@ -3,16 +3,17 @@
 ## Here are some awesome Flutter widgets
 
 #### Table of the content 📑
-1. Flip Card Widget
-2. Confetti Widget 
-3. List Wheel Scroll View Widget
+1. Image Color Filter 
+2. Flip Card Widget
+3. Image Viewer 3D
 4. Interactive Viewer Widget
 5. Reorderable List View Widget
 6. Cupertino Context Menu Widget
 7. Tabular View Widget
 8. Amazon 'Swipe to place your order' UI
 9. Stepper Widget
-10. Image Color Filter
+10. Confetti Widget 
+11. List Wheel Scroll View Widget
 
 ### Awesome Widget's Preview 😎
 
@@ -20,12 +21,12 @@
     <tr>
     <td align="center">Image Color Filter</td>
     <td align="center">FlipCard</td>
-    <td align="center">List Wheel Scroll View</td>
+    <td align="center">Image Viewer 3D</td>
     </tr>
     <tr>
     <td><img src="assets\gifs\image_color_filter.gif"></td>    
     <td><img src="assets\gifs\flip_card.gif"></td>
-    <td><img src="assets\gifs\list_wheel_scroll.gif"></td>
+    <td><img src="assets\gifs\image_viewer_3d.gif"></td>
     </tr>
     <tr>
     <td align="center">Interactive Viewer</td>
@@ -49,11 +50,12 @@
     </tr>
     <tr>
     <td align="center">Confetti</td>
-    <td align="center"></td>
+    <td align="center">List Wheel Scroll View</td>
     <td align="center"></td>
     </tr>
     <tr>
     <td><img src="assets\gifs\confetti.gif"></td>
+    <td><img src="assets\gifs\list_wheel_scroll.gif"></td>
     </tr>
 </table>
 
