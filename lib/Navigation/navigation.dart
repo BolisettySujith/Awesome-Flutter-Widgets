@@ -16,5 +16,6 @@ class Navigate{
     '/tabularView': (context) => const TabularView(),
     '/amazonplaceorderui': (context) => const AmazonPlaceOrderUI(),
     '/stepperwidget' : (context) => const StepperWidget(),
+    '/color_filtered_image_effect' : (context) => const ColorFilteredImageEffect(),
   };
 }

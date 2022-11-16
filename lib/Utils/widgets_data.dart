@@ -282,6 +282,15 @@ WidgetDetailsModel stepperWidget = WidgetDetailsModel(
     """
 );
 
+WidgetDetailsModel colorFilteredEffects = WidgetDetailsModel(
+    "Image Color Filtering",
+    "Customize the Image color",
+    "assets/gifs/image_color_filter.gif",
+    "/color_filtered_image_effect",
+    """
+    """
+);
+
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
@@ -291,5 +300,6 @@ List<WidgetDetailsModel> widgetsList = [
   cuperCtxMenu,
   tabularView,
   bottomsheetpopup,
-  stepperWidget
+  stepperWidget,
+  colorFilteredEffects
 ];
