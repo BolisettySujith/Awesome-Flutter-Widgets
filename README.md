@@ -59,6 +59,34 @@
     </tr>
 </table>
 
+## Overflow
+### 1. Wanna get rid of Widgets Overflowed while placing them in a Row ?
+<img src="Images/RowContainersWidgets.png">
+
+<details><summary>Solution</summary>
+<p>
+
+### Just Wrap them 😎
+<img src="Images/WrapContainersWidget.png">
+
+**Use**
+```dart
+Wrap(
+    spacing: 5.0,
+    runSpacing: 5.0,
+    children: [
+        Container(color: Colors.yellow, height: 100, width: 100,),
+        Container(color: Colors.green, height: 100, width: 100,),
+        Container(color: Colors.blue, height: 100, width: 100,),
+        Container(color: Colors.red, height: 100, width: 100,),
+        Container(color: Colors.pink, height: 100, width: 100,),
+        Container(color: Colors.orange, height: 100, width: 100,),
+        Container(color: Colors.amber, height: 100, width: 100,)
+    ],
+)
+```
+</p>
+</details>
 
 
 ## Looking to contribute 📝 ?
