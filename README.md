@@ -88,7 +88,7 @@ Wrap(
 </p>
 </details>
 
-### 1. Wanna get rid of Text overfitted when placing it inside a container smaller than it's size ?
+### 2. Wanna get rid of Text overfitted when placing it inside a container smaller than it's size ?
 <img src="Images/textNotFittedBox.png">
 
 <details><summary>Solution</summary>
