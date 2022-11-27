@@ -88,6 +88,35 @@ Wrap(
 </p>
 </details>
 
+### 1. Wanna get rid of Text overfitted when placing it inside a container smaller than it's size ?
+<img src="Images/textNotFittedBox.png">
+
+<details><summary>Solution</summary>
+<p>
+
+### Just Fit that 😎
+<img src="Images/textFittedBox.png">
+
+**Use**
+```dart
+Container(
+    height: 150,
+    width: 400,
+    color: Colors.cyan,
+    child: const FittedBox(
+        fit: BoxFit.contain,
+        child:  Text(
+            "Hello",
+            style: TextStyle(
+                fontSize: 200
+            ),
+        ),
+    ),
+)
+```
+</p>
+</details>
+
 
 ## Looking to contribute 📝 ?
 Please read [CONTRIBUTING.md](/CONTRIBUTING.md) before writing a pull request.
