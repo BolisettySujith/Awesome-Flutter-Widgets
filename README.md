@@ -14,6 +14,7 @@
 9. Stepper Widget
 10. Confetti Widget 
 11. List Wheel Scroll View Widget
+12. Custom Banner Widget
 
 ### Awesome Widget's Preview 😎
 
@@ -51,11 +52,13 @@
     <tr>
     <td align="center">Confetti</td>
     <td align="center">List Wheel Scroll View</td>
+    <td align="center">Custom Banner</td>
     <td align="center"></td>
     </tr>
     <tr>
     <td><img src="assets\gifs\confetti.gif"></td>
     <td><img src="assets\gifs\list_wheel_scroll.gif"></td>
+    <td><img src="assets\gifs\banner_widget.gif"></td>
     </tr>
 </table>
 
