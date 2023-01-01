@@ -18,5 +18,6 @@ class Navigate{
     '/stepperwidget' : (context) => const StepperWidget(),
     '/color_filtered_image_effect' : (context) => const ColorFilteredImageEffect(),
     '/image_viewer_3d' : (context) => ImageViewer3D(),
+    '/banner_wid' : (context) => BannerWidget(),
   };
 }
