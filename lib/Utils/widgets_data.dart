@@ -310,6 +310,63 @@ WidgetDetailsModel imageViewer3d = WidgetDetailsModel(
     """
 );
 
+WidgetDetailsModel bannerWidget = WidgetDetailsModel(
+    "Banner Widget",
+    "Banner widget comes built-in with flutter API. It is somewhat similar to the debug banner that we are used to seeing on the top-right corner on a flutter app in debug mode. It enables us to show a message or text on top of any other widget.",
+    "assets/gifs/banner_widget.gif",
+    "/banner_wid",
+    """
+    Container(
+      margin: const EdgeInsets.all(10),
+      child: ClipRect(
+        child: Banner(
+          message: "25% off",
+          location: BannerLocation.topEnd,
+          color: Colors.red,
+          child: Container(
+            color: Colors.cyan.shade600,
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(10, 20, 10, 20),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Image.network(
+                      'https://github.com/BolisettySujith/Awesome-Flutter-Widgets/raw/master/Images/ReadmeHeader.gif'
+                  ),
+                  const SizedBox(height: 10,),
+                  Row(
+                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Text(
+                        'Awesome Flutter Widgets',
+                        style: TextStyle(
+                            fontSize: 15, fontWeight: FontWeight.bold,
+                          color: Colors.white
+                        ),
+                      ),
+                      const Spacer(),
+                      SizedBox(
+                        height: 35,
+                        width: 80,
+                        child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(primary: Colors.orangeAccent),
+                            onPressed:(){},
+                            child: const FittedBox(child: Text("Get Now"))
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    )
+    """
+);
+
 List<WidgetDetailsModel> widgetsList = [
   flipCardWidget,
   confettiWidget,
@@ -321,5 +378,6 @@ List<WidgetDetailsModel> widgetsList = [
   bottomsheetpopup,
   stepperWidget,
   colorFilteredEffects,
-  imageViewer3d
+  imageViewer3d,
+  bannerWidget
 ];
