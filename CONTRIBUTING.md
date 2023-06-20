@@ -1,4 +1,4 @@
-<p align="center"><img src="Images/ContributingHeader.gif" width="100%"/></p>
+![ContributingHeader](https://github.com/BolisettySujith/Awesome-Flutter-Widgets/assets/73323807/aa0315a2-bbe9-4caf-9af9-3c35dd05a0cd)
 
 ## Contributing Guidelines
 
@@ -14,7 +14,7 @@ When contributing to this repository, please first discuss the change you wish t
 
     This page is the space where you can add the widget. By clicking on a particular widget from the home page, you will be redirected to that particular widget space.
 
-<img src="Images/DemoTemplate.png">
+<img src="https://github.com/BolisettySujith/Awesome-Flutter-Widgets/assets/73323807/9e96e52e-696a-4a5f-87a5-c5c2c16743dd">
 
 ## How to add a widget?
 1. First fork the repo and clone it to your local machine.
@@ -22,7 +22,7 @@ When contributing to this repository, please first discuss the change you wish t
    ```
    $ git clone https://github.com/YOUR-GITHUB-USERNAME/Awesome-Flutter-Widgets.git
    ```
-2. Open Awesome-Flutter-Widgets project in your favourite editor (VS Code, Android Studio etc)
+2. Open Awesome-Flutter-Widgets project in your favorite editor (VS Code, Android Studio, etc)
    
 3. To install the dependencies run the following command in the terminal.
 
@@ -81,5 +81,5 @@ When contributing to this repository, please first discuss the change you wish t
 12. Create a pull request to the main repo.
 
 <p align = "center">
-Thank you for your valueable contribution! 🎉
+Thank you for your valuable contribution! 🎉
 </p>
